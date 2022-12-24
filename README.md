@@ -1,6 +1,5 @@
 # code-repository
 
+### [코드 조각 모음](https://github.com/nhkiiim/code-repository/issues)
 
-### [Issues](https://github.com/nhkiiim/code-repository/issues)
-
-### [Wiki](https://github.com/nhkiiim/code-repository/wiki)
+### [참고 자료 모음](https://github.com/nhkiiim/code-repository/wiki)
