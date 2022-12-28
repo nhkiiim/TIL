@@ -20,6 +20,7 @@ __2. WAS (Web Application Server)__
 - Tomcat, JBoss, Jeus, Web Sphere 등
 
 __3. Web Server, WAS를 분리하는 이유__
+
 `자원 이용의 효율성 및 장애 극복, 배포 및 유지보수의 편의성`
 - Web Server는 정적 파일들을 WAS 까지 가지 않고 앞단에서 처리해 기능을 분리하는 것으로 서버 부하 방지
 - WAS를 통해 사용자의 요청에 따른 동적 컨텐츠를 만들어서 제공해 자원을 효율적으로 사용
