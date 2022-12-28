@@ -28,3 +28,30 @@ __3. Web Server, WAS를 분리하는 이유__
 - Web Server에 여러 대의 WAS를 연결해 Load Balancing 가능
 
 
+#
+### SPA / MPA
+__(1) SPA (Single Page Application)__
+- 한개의 페이지로 구성된 어플리케이션
+- 모든 정적 리소스를 최초 한 번에 다운로드, 페이지 갱신 시 필요한 데이터만 전달 받음
+- CSR(Client Side Rendering) 방식으로 렌더링
+- 즉각적인 반응으로 유연한 UI 제공 가능
+- 초기 페이지 로딩에 시간이 걸려 초기 구동 속도 느림
+
+__(2) MPA (Multiple Page Application)__
+- 여러개의 페이지로 구성된 어플리케이션
+- 새로운 페이지를 요청할 때마다 정적 리소스가 다운로드되고 매번 전체 페이지가 다시 렌더링
+- SSR(Server Side Rendering) 방식으로 렌더링
+- SEO (검색엔진 최적화) 관점에서 유리
+- 요청이 들어올 때 마다 페이지 로딩 필요해 새로고침 됨 
+
+
+#
+### SSR / CSR 
+> [장단점 및 고려사항 참고 링크](https://github.com/nhkiiim/code-repository/wiki/Web#spa--ssr--csr-%EC%9E%A5%EB%8B%A8%EC%A0%90-%EB%B0%8F-%EA%B3%A0%EB%A0%A4-%EC%82%AC%ED%95%AD)
+
+
+#
+### Nexus
+
+#
+### NginX 
