@@ -49,9 +49,5 @@ __(2) MPA (Multiple Page Application)__
 ### SSR / CSR 
 > [장단점 및 고려사항 참고 링크](https://github.com/nhkiiim/code-repository/wiki/Web#spa--ssr--csr-%EC%9E%A5%EB%8B%A8%EC%A0%90-%EB%B0%8F-%EA%B3%A0%EB%A0%A4-%EC%82%AC%ED%95%AD)
 
-
 #
-### Nexus
-
-#
-### NginX 
+### Nginx
