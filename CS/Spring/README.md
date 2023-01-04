@@ -15,6 +15,8 @@ __(2) WAR(Web Application Archive)__
 
 #
 ### application.properties / application.yml 차이
+> [Spring Boot 외부 설정값 주입 참고](https://github.com/nhkiiim/code-repository/wiki/Spring#spring-boot-%EC%99%B8%EB%B6%80%EC%97%90%EC%84%9C-%EC%84%A4%EC%A0%95-%EC%A3%BC%EC%9E%85%ED%95%98%EA%B8%B0-springprofilesactive)
+
 __(1) application.properties__
 - 키-밸류형식을 사용하여 외부 구성의 속성을 설정
 ```
