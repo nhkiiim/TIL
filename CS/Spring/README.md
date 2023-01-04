@@ -12,3 +12,23 @@ __(2) WAR(Web Application Archive)__
 - 웹 관련 자원을 포함함 (JSP, Servlet, JAR, Class, XML, HTML, Javascript)
 - WAR는 웹 어플리케이션 배포를 위해 JAR보다 특정한 디렉터리(WEB-INF, META-INF)와 파일들이 필요
 - 외장 WAS나 JSP를 사용해야하는 경우에 사용
+
+#
+### application.properties / application.yml 차이
+__(1) application.properties__
+- 키-밸류형식을 사용하여 외부 구성의 속성을 설정
+```
+spring.datasource.url=jdbc:h2:DB이름
+spring.datasource.username=유저이름
+spring.datasource.password=비밀번호
+```
+
+__(2) application.yml__
+- YAML기반으로 외부 구성의 속성을 설정
+```
+spring:
+    datasource:
+        url: jdbc:h2:DB이름
+        username: 유저이름
+		password: 비밀번호
+```
