@@ -53,3 +53,27 @@ __VM options 추가 - IntelliJ__
 ```
 spring.datasource.password=ENC(hReucCsYHuu6DBKL4LJvdUQGgL4JGar+)
 ```
+
+#
+### Interceptor
+> 권한 체크 공통 로직에 활용
+
+> [참고 자료 및 필터와 차이](https://github.com/nhkiiim/code-repository/wiki/Spring#interceptor)
+
+- Spring이 제공하는 기술로, 디스패처 서블릿(Dispatcher Servlet)이 컨트롤러를 호출하기 전과 후에 요청과 응답을 참조하거나 가공할 수 있는 기능을 제공
+- org.springframework.web.servlet.HandlerInterceptor 인터페이스를 구현해 사용 가능
+- org.springframework.web.servlet.handler.HandlerInterceptorAdapter 추상클래스를 오버라이딩해 사용 가능
+
+__(1) preHandle()__
+- 컨트롤러가 호출되기 전에 실행됨
+- 컨트롤러가 실행 이전에 처리해야 할 작업이 있는경우 혹은 요청정보를 가공하거나 추가하는경우 사용
+
+__(2) postHandle()__
+- 핸들러가 실행은 완료 되었지만 아직 View가 생성되기 이전에 호출
+- 컨트롤러를 호출된 후에 처리해야 하는 후처리 작업이 있을 때 사용
+- ModelAndView 타입의 정보가 제공되는데, 최근에는 Json 형태로 데이터를 제공하는 RestController를 만들면서 자주 사용되지는 않음
+
+__(3) afterCompletion()__
+- 모든 View에서 최종 결과를 생성하는 일을 포함한 모든 작업이 완료된 후에 실행
+- 요청 처리중에 사용한 리소스를 반환해주기 좋은 메서드
+
