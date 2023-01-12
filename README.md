@@ -1,7 +1,5 @@
-# code-repository
+# TIL
 
-### [개발 기록](https://github.com/nhkiiim/code-repository/issues)
+### [Issues](https://github.com/nhkiiim/TIL/issues)
 
-### [참고 자료](https://github.com/nhkiiim/code-repository/wiki)
-
-### [개념 정리](https://github.com/nhkiiim/code-repository/tree/main/CS)
+### [Today I Learned](https://github.com/nhkiiim/TIL/discussions)
